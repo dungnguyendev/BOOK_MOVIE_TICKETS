@@ -1,0 +1,31 @@
+body {
+    background: url("./../../assets/img/dolby-atmos-va-dolby-vision--su-ket-hop-doc-dao-tren-tivi-oled-lg4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.loggin,
+.title_logo,
+.linkchange {
+    background: rgb(230, 167, 93);
+    background: linear-gradient(90deg, rgba(230, 167, 93, 1) 27%, rgba(217, 115, 63, 1) 66%);
+    background-clip: text;
+    color: transparent
+}
+
+.btb__login {
+   
+    background: linear-gradient(90deg, rgba(230, 167, 93, 1) 27%, rgba(217, 115, 63, 1) 66%);
+    transition: background .5s ease;
+    transition-delay: 1s; 
+}
+
+.btb__login:hover {
+    background: linear-gradient(90deg, rgba(230, 167, 93, 1) 70%, rgba(217, 115, 63, 1) 89%);
+}
+
+.logo_movie {
+    background: url("./../../assets/img/hinhlog.png");
+    background-size: cover;
+    background-position: center;
+}

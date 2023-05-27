@@ -1,0 +1,10 @@
+{
+    "hello":"你好",
+    "singin":"登入",
+    "signup":"报名",
+    "logout":"登出",
+    "home": "家",
+    "showingmovies": "放映电影",
+    "comingmovies": "即将上映的电影",
+    "about": "关于"
+}

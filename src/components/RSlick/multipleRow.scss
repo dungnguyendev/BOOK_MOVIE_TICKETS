@@ -1,0 +1,121 @@
+.slick-prev {
+   z-index: 20 !important;
+}
+
+.slick-next::before,
+.slick-prev::before {
+   font-size: 2rem !important;
+}
+
+.slick-slide {
+   opacity: 0;
+}
+
+.slick-slide.slick-active {
+   opacity: 1;
+}
+
+.title-list {
+   text-align: center;
+   color: #d9733f;
+   border-bottom: 1px solid orange;
+   width: 20%;
+   margin: auto;
+   font-size: 1.3rem;
+   font-weight: 500;
+}
+.movie-overlay {
+   position: absolute;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   cursor: pointer;
+   background: linear-gradient(0, #000, transparent);
+   opacity: 0;
+   transition: all 0.5s;
+}
+
+.movie-checkout {
+   position: absolute;
+   cursor: pointer;
+   top: -10px;
+   width: 100%;
+   height: 50px;
+   background-color: #fb923c;
+   display: none;
+   transition: all 0.5s;
+   text-align: center;
+   line-height: 50px;
+   font-size: 1.5rem;
+   font-weight: 700;
+   border-radius: 5px;
+   transition: all 0.5s;
+   &:hover {
+      background-color: #d9733f;
+   }
+}
+
+.movie-trailer {
+   position: absolute;
+   top: 50%;
+   color: white;
+   left: 50%;
+   font-size: 2rem;
+   cursor: pointer;
+   display: none;
+   transition: all 0.5s;
+}
+
+.movie-name {
+   transition: all 0.5s;
+}
+
+.movie-item {
+   width: 100% !important;
+   height: 600px;
+}
+
+.movie-item:hover .movie-overlay {
+   opacity: 1;
+}
+
+.movie-item:hover .movie-checkout,
+.movie-item:hover .movie-trailer {
+   display: block;
+}
+
+.movie-item:hover .movie-name {
+   display: none;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+   .arrow {
+      display: none !important;
+   }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+   .arrow {
+      display: none !important;
+   }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+   .arrow {
+      display: none !important;
+   }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+   .arrow {
+      display: block !important;
+   }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
